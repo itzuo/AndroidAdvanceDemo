@@ -16,6 +16,7 @@ buildscript {
 repositories {
     mavenCentral()
 }
+
 final def log = project.logger
 final def variants = project.android.applicationVariants
 variants.all { variant ->
